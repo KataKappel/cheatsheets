@@ -5,3 +5,7 @@ git add . ahogy most kinéz a verzió, arról szeretnénk egy snapshotot
 git commit -m "initial commit" commitol
 git checkout + commit hash visszaállás egy régebbi verzióra (ez után és a következő lépés előtt ne módosítsuk a verziókat)
 git switch - vissza lehet vonni a visszaállítást
+git remote add origin + repo linkje
+git remote -v meg tudjuk nézni, van-e repo
+git push
+git push --set upstream 
